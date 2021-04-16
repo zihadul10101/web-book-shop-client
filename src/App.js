@@ -23,7 +23,7 @@ function App() {
      <Router>
      
      <Header></Header>
-     <h3>email:{loggedInUser.email}</h3>
+     
       <Switch>
         
         <Route path="/home">

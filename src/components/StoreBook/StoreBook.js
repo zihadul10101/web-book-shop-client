@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const StoreBook = (props) => {
     const { imageUrl, price, _id, name } = props.bookDetail;
     return (
-        <div className=" pt-5 mt-100">
+        <div className=" pt-5 shadow-lg p-3 mb-5 bg-body rounded">
             <div  class="card" style={{width: '18rem'}}>
                 <img style={{ height: '220px' }} src={imageUrl} alt="" />
                 <div class="card-body">

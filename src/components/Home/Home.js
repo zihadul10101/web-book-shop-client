@@ -7,7 +7,7 @@ const Home = () => {
         fetch('https://guarded-chamber-62045.herokuapp.com/books')
         .then(res=>res.json())
         .then(data=>setBookDetails(data))
-    })
+    },[])
     return (
         <div className="row pt-5 mt-5">
             {

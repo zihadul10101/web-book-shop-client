@@ -1,6 +1,7 @@
 # Welcome web-book-house
 
 live site:https://web-book-shop.web.app
+responsive: mobile abd dastop
 
 ## Using hocks
 01.useState
@@ -19,6 +20,7 @@ live site:https://web-book-shop.web.app
 
 ## Database
 01.mongodb
+
 
 
 
