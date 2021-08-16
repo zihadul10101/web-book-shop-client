@@ -6,7 +6,7 @@ import {
 const Header = () => {
     return (
         <div className="mt-5">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+            <nav className="navbar navbar-expand-lg navbar-light  fixed-top " style={{backgroundColor:'gold'}}>
                 <div className="container ">
                     <div className="col-md-6">
                         <span className="text-primary">Web Book Shop </span>

@@ -1,3 +1,4 @@
+import { Table } from '@material-ui/core';
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { UserContext } from '../../App';
@@ -20,18 +21,24 @@ const Order = () => {
         .then(data => setOrders(data));
     }, [])
     return (
-        <div className="mt-5">
+        <div classNameName="mt-5">
           
          <h3>You have: {orders.length} ordering</h3>
          {
-             orders.map(order => <th>
-                 <tr>book name:{order.book?.name}</tr>
-                 <tr> price:{order.book?.price}</tr>
+             orders.map(order =>
+                  <ul>
+                 <li>book name:{order.book?.name}</li>
+                 <li> price:{order.book?.price}</li>
                 
-             </th>
+             </ul>
+           
                 )
          }
         </div>
+
+      
+    
+
     );
 };
 

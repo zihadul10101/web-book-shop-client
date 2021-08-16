@@ -45,14 +45,15 @@ const Admin = () => {
   return (
     <div className="mt-5 pt-5">
 
-      {/* <h3>Add Book</h3>
+      <h3>Add Book</h3>
       <form onSubmit={handleSubmit(onSubmit)}>
         Add book Name:
                 <input name="name" type="text" placeholder="web-book" ref={register} />
-        <br />
-        <br />
+       
+        <div class="btn btn-rounded purple-gradient btn-sm float-left">
                 Add image:
                 <input name="image" type="file" onChange={handleImageUpload} />
+                </div>
         <br />
         <br />
                 Add Price:
@@ -61,40 +62,12 @@ const Admin = () => {
         <br />
 
         <button type="submit">submit</button>
-      </form> */}
+      </form>
+     
 
-
-
-
-      <div id="list-example" class="list-group">
-  <a class="list-group-item list-group-item-action" href="#list-item-1">Add Book</a>
-  <a class="list-group-item list-group-item-action" href="#list-item-2">Manage Book</a>
-  
 </div>
-<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-  <h4 id="list-item-1">Add Book</h4>
-  <p>
-      <form onSubmit={handleSubmit(onSubmit)}>
-        Add book Name:
-                <input name="name" type="text" placeholder="web-book" ref={register} />
-        <br />
-        <br />
-                Add image:
-                <input name="image" type="file" onChange={handleImageUpload} />
-        <br />
-        <br />
-                Add Price:
-                <input name="price" placeholder="price" type="text" ref={register} />
-        <br />
-        <br />
 
-        <button type="submit">submit</button>
-      </form></p>
-  <h4 id="list-item-2">Item 2</h4>
-  <p>...</p>
-  
-</div>
-    </div>
+
   );
 };
 

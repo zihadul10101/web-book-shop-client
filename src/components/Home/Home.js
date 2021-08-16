@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import StoreBook from '../StoreBook/StoreBook';
+import './Home.css';
 
 const Home = () => {
     const [bookDetails,setBookDetails]=useState([]);
@@ -11,7 +12,7 @@ const Home = () => {
     return (
         <div className="row pt-5 mt-5">
             {
-                bookDetails.length === 0 && <div style={{textAlign:'center'}} class="spinner-border" role="status">
+                bookDetails.length === 0 && <div  class="spinner-border" role="status">
                 <span class="visually-hidden"></span>
               </div>
             }
